@@ -1,3 +1,29 @@
 .initially-hidden {
   display: none;
 }
+
+
+
+
+.header {
+  text-align: center;
+  margin: 70px 0px;
+  border: thin solid black;
+
+}
+
+.form-group p {
+  background-color: black;
+  color: white;
+  padding: 0px 15px;
+  font-size: 1.2em;
+}
+
+.form-group {
+  border: thin solid black;
+  padding-bottom: 10px;
+}
+
+.form-group input[type="checkbox"] {
+  margin: 5px;
+}
