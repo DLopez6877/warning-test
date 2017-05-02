@@ -27,3 +27,8 @@
 .form-group input[type="checkbox"] {
   margin: 5px;
 }
+
+.initially-hidden {
+  text-align: center;
+  font-size: 3em;
+}
