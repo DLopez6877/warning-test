@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" charset="utf-8" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" charset="utf-8" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>warning Test</title>
+  </head>
+  <body>
+    <div class="container">
+       <div class="jumbotron">
+         <h1>Warning Test</h1>
+         <p class="lead">
+           Take this test to determine how to mitigate your warning levels
+         </p>
+       </div>
+       <form>
+        <div class="form-group">
+          <p>
+            Complete this sentence: I often feel... (check all that apply)
+          </p>
+          <input type="checkbox" name="warning" value="agitated"> easily agitated or frustrated.<br>
+          <input type="checkbox" name="warning" value="overwhelmed"> overwhelmed, like I am losing control.<br>
+          <input type="checkbox" name="warning" value="bad"> bad about myself, lonely, and/or worthless.<br>
+          <input type="checkbox" name="warning" value="avoid"> like I avoid others.<br>
+          <p>
+            Complete this sentence: I often have... (check all that apply)
+          </p>
+          <input type="checkbox" name="warning" value="energy"> low energy.<br>
+          <input type="checkbox" name="warning" value="headaches"> headaches.<br>
+        </div>
+        <div class="form-group">
+          <p>
+            Complete this sentence: I often have... (check all that apply)
+          </p>
+          <input type="checkbox" name="symptoms" value="blood"> high blood pressure.<br>
+          <input type="checkbox" name="symptoms" value="anxiety"> anxiety.<br>
+          <input type="checkbox" name="symptoms" value="insomnia"> insomnia.<br>
+          <input type="checkbox" name="symptoms" value="colds"> frequent colds.<br>
+        </div>
+        <div class="form-group">
+          <p>
+            Complete this sentence: I am relaxed when I... (check all that apply)
+          </p>
+          <input type="checkbox" name="coping" value="meditate"> meditate.<br>
+          <input type="checkbox" name="coping" value="yoga"> do yoga.<br>
+          <input type="checkbox" name="coping" value="golf"> play golf.<br>
+          <input type="checkbox" name="coping" value="exercise"> exercise.<br>
+        </div>
+        <button type="submit" name="button">Submit</button>
+       </form>
+       <div class="initially-hidden" id="symptoms-resources">
+         <p>
+           You are experiencing symptoms of stress. Check out the <a href="http://www.humanstress.ca/stress/trick-your-stress/steps-to-instant-stress-management.html">Centre for Studies on Human Health</a> for methods to help deal with your symptoms.
+         </p>
+       </div>
+       <div class="initially-hidden" id="warning-resources">
+         <p>
+           You are experiencing warning signs of stress. Check out <a href="https://www.helpguide.org/articles/stress/stress-management.htm">Helpguide.org</a> for help with stress management.
+         </p>
+       </div>
+       <div class="initially-hidden" id="therapist-resources">
+         <p>
+           You're losing it! I recommend you see a <a href="https://www.google.com/search?q=therapist&oq=therapist&aqs=chrome.0.0l6.1495j0j4&sourceid=chrome&ie=UTF-8">therapist</a> as soon as you can.
+         </p>
+       </div>
+       <div class="initially-hidden" id="fine">
+         <p>
+           Congrats! You're managing your stress effectively.
+         </p>
+       </div>
+    </div>
+  </body>
+</html>
